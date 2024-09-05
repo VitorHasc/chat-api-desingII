@@ -11,10 +11,10 @@ import './index.css'
 
 const App = () => (
   <Routes>
-    <Route path="https://VitorHasc.github.io/chat-api-desingII" element={<Navigate to="/login" />} />
-    <Route path="https://VitorHasc.github.io/chat-api-desingII" element={<Login />} />
-    <Route path="https://VitorHasc.github.io/chat-api-desingII" element={<Home />} />
-    <Route path="https://VitorHasc.github.io/chat-api-desingII" element={<Chat />} />
+    <Route path="/" element={<Navigate to="/login" />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="/home" element={<Home />} />
+    <Route path="/chat" element={<Chat />} />
   </Routes>
 );
 
